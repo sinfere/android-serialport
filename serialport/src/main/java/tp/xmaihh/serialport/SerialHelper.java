@@ -111,7 +111,8 @@ public abstract class SerialHelper {
 //                    }
 
                 } catch (Throwable e) {
-                    Log.e("error", e.getMessage());
+                    e.printStackTrace();
+//                    Log.e("error", e.getMessage());
                     return;
                 }
             }
